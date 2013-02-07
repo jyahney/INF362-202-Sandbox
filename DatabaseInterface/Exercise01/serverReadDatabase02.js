@@ -7,7 +7,7 @@ http.createServer( function(req, res) {
 
   console.log('Server Started ');
 
-  parseXlsx('ClassRoster.xlsx', function(data) {
+  parseXlsx('GoogleFluTrendsData.xlsx', function(data) {
 
       res.writeHead(200, {'content-type': 'text/plain'});
 
