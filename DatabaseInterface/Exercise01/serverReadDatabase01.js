@@ -7,7 +7,7 @@ var office = require('office');
 
 exports.ods = function(data) {
 
-  office.parse('GoogleFluTrendsData.xlsx', function(err, data) {
+  office.parse('FavoriteFruits.xlsx', function(err, data) {
 
     // var cellvalue = data.sheets.sheet[0].rows.row[0].cell[0]['$t'];
 
