@@ -7,7 +7,7 @@ http.createServer( function(req, res) {
 
   console.log('Server Started ');
 
-  parseXlsx('ClassRoster.xlsx', function(data) {
+  parseXlsx('GoogleFluTrendsData.xlsx', function(data) {
 
       var query = require('url').parse(req.url).query;
       var row = require('querystring').parse(query).row;
